@@ -1,11 +1,10 @@
 package com.microservice.departmentservice.controller;
 
-import com.microservice.departmentservice.dto.DepartmentDto;
+import com.microservice.departmentservice.dto.DepartmentDTO;
 import com.microservice.departmentservice.service.DepartmentService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,9 +19,9 @@ public class DepartmentController {
 
 //    Build Save Department REST API End point
 
-    @PostMapping
-    public ResponseEntity<DepartmentDto> saveDepartment(@RequestBody DepartmentDto departmentDto) {
-        DepartmentDto savedDepartment =  departmentService.saveDepartment(departmentDto);
+    @PostMapping("/")
+    public ResponseEntity<DepartmentDTO> saveDepartment(@RequestBody DepartmentDTO departmentDto) {
+        DepartmentDTO savedDepartment =  departmentService.saveDepartment(departmentDto);
         return new ResponseEntity<>(savedDepartment, HttpStatus.CREATED);
     }
 }

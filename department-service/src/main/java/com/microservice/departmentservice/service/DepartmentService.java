@@ -1,10 +1,8 @@
 package com.microservice.departmentservice.service;
 
-import com.microservice.departmentservice.dto.DepartmentDto;
-import org.springframework.stereotype.Service;
+import com.microservice.departmentservice.dto.DepartmentDTO;
 
-@Service
 public interface DepartmentService {
 
-    DepartmentDto saveDepartment(DepartmentDto departmentDto);
+    DepartmentDTO saveDepartment(DepartmentDTO departmentDto);
 }

@@ -1,13 +1,16 @@
 package com.microservice.departmentservice.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class DepartmentDto {
+public class DepartmentDTO {
+
     private Long id;
     private String departmentName;
     private String departmentDescription;

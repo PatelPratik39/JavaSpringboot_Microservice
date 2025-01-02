@@ -7,9 +7,8 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "departments")
+@NoArgsConstructor
 public class Department {
 
     @Id
@@ -18,5 +17,4 @@ public class Department {
     private String departmentName;
     private String departmentDescription;
     private String departmentCode;
-
 }
