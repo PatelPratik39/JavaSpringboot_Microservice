@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaSpringboot_Microservice.iml" filepath="$PROJECT_DIR$/.idea/JavaSpringboot_Microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/department-microservice/department-microservice.iml" filepath="$PROJECT_DIR$/department-microservice/department-microservice.iml" />
     </modules>
   </component>
 </project>
