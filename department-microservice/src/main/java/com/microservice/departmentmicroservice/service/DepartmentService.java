@@ -4,4 +4,5 @@ import com.microservice.departmentmicroservice.dtos.DepartmentDto;
 
 public interface DepartmentService {
     DepartmentDto save(DepartmentDto departmentDto);
+    DepartmentDto getDepartmentByCode(String departmentCode);
 }

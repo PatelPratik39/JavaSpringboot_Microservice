@@ -8,6 +8,7 @@ public class EmployeeMicroserviceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeeMicroserviceApplication.class, args);
+		System.err.println(" *********** 🧑🏻‍💻Employee Microservice is up and Running ***********");
 	}
 
 }

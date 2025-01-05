@@ -8,7 +8,7 @@ public class DepartmentMicroserviceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DepartmentMicroserviceApplication.class, args);
-		System.err.println("Department microservice is up and running");
+		System.err.println("********* 💼Department microservice is up and running **********");
 	}
 
 }
